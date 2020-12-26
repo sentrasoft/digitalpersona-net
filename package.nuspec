@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>DigitalPersona.NET</id>
+    <version>1.4.0</version>
+    <title>DigitalPersona.NET</title>
+    <authors>Fahmi L. Ramdhani</authors>
+    <owners>Fahmi L. Ramdhani</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Assemblies required for DigitalPersona One Touch SDK fingerprint readers.</description>
+    <copyright>Copyright © DigitalPersona, Inc 1996-2009</copyright>
+	<repository type="git" url="https://github.com/sentrasoft/digitalpersona-net" />
+	<license type="expression">MIT</license>
+    <tags>digitalpersona, onetouch</tags>
+	<dependencies>
+	  <group targetFramework="net40"></group>
+	  <group targetFramework="net45"></group>
+	  <group targetFramework="net46"></group>
+	  <group targetFramework="net47"></group>
+	  <group targetFramework="net48"></group>
+    </dependencies>
+  </metadata>
+  <files>
+	<file src="lib\*.dll" target="lib\net40" />
+	<file src="lib\*.dll" target="lib\net45" />
+	<file src="lib\*.dll" target="lib\net46" />
+	<file src="lib\*.dll" target="lib\net47" />
+	<file src="lib\*.dll" target="lib\net48" />
+  </files>
+</package>
